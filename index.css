@@ -1,0 +1,86 @@
+body {
+    background-color: #202124;
+    color: fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Hed {
+    text-align: right;
+    padding: 15px;
+}
+.Hed a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 15px;
+}
+.Hed .avatar {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #f4511e;
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    padding-right: 0;
+}
+.bod{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: white;
+    font-size: 120px;
+    font-weight: 50px;
+}
+.blb{
+    color: #b2b2b2;
+    padding: 15px;
+    align-items: center;
+}
+.leg{
+    padding-top: 5px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+}
+.word{
+    color: white;
+    padding: 20px;
+}
+.dawn a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+input[type='text'] {
+    height: 15px;
+    width: 650px;
+    padding: 15px;
+    background-color: #505050;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+}
+.serch{
+    height: 15px;
+    width: 160px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+.aaa{
+    text-align: left;
+}
+.bbb{
+    text-align: right;
+}
