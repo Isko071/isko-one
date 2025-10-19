@@ -2,6 +2,8 @@ body {
     background-color: #202124;
     color: fff;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 .header {
     text-align: right;
@@ -24,7 +26,7 @@ body {
     border-radius: 50%;
     padding-right: 0;
 }
-.bod{
+.content {
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -36,22 +38,32 @@ h1 {
     font-size: 120px;
     font-weight: 50px;
 }
-.blb{
+.language{
     color: #b2b2b2;
     padding: 15px;
     align-items: center;
 }
-.leg{
+.footer{
     padding-top: 5px;
     font-size: 15px;
     position: absolute;
     bottom: 0;
+    max-width: 100%;
+    width: 100%;
+    background-color: #171717;
 }
-.word{
+.country{
     color: white;
     padding: 20px;
+    padding: 15px 30px;
+    border-bottom: 1px solid gray;
 }
-.dawn a{
+.bottom {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom a{
     color: white;
     text-decoration: none;
     padding: 20px;
@@ -66,21 +78,18 @@ input[type='text'] {
     border-radius: 30px;
     border: none;
 }
-.serch{
-    height: 15px;
+.buttons {
+    margin-top: 30px;
+}
+.search{
     width: 160px;
     font-size: 15px;
     margin: 5px;
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 5px;
     text-align: center;
     background-color: #333;
     color: #fff;
     border: none;
 }
-.aaa{
-    text-align: left;
-}
-.bbb{
-    text-align: right;
-}
+
