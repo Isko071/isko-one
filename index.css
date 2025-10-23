@@ -1,33 +1,29 @@
 body {
     background-color: #202124;
     color: fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
+
 .header {
     text-align: right;
-    padding: 15px;
+    padding: 14px;
 }
 .header a {
     color: white;
     text-decoration: none;
-    padding-right: 20px;
-    font-size: 15px;
+    padding-right: 0px 0px 0px 15px;
+    font-size: 13px;
 }
-.header .avatar {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    background-color: #f4511e;
-    color: white;
-    display: inline-block;
-    border-radius: 50%;
-    padding-right: 0;
+.avatar-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: none;
 }
 .content {
-    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,17 +31,23 @@ body {
 }
 h1 {
     color: white;
-    font-size: 120px;
-    font-weight: 50px;
+    font-size: 90px;
+    font-weight: 150;
 }
 .language{
     color: #b2b2b2;
     padding: 15px;
     align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.language a{
+    text-decoration: none;
+    color: #99c3ff;
 }
 .footer{
-    padding-top: 5px;
-    font-size: 15px;
+
+    font-size: 14px;
     position: absolute;
     bottom: 0;
     max-width: 100%;
@@ -54,6 +56,7 @@ h1 {
 }
 .country{
     color: white;
+    font-size: 15px;
     padding: 20px;
     padding: 15px 30px;
     border-bottom: 1px solid gray;
@@ -64,15 +67,15 @@ h1 {
     justify-content: space-between;
 }
 .bottom a{
-    color: white;
+    color: #e8e8e8;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
 }
 input[type='text'] {
-    height: 15px;
+    height: 17px;
     width: 650px;
-    padding: 15px;
-    background-color: #505050;
+    padding: 17px;
+    background-color: #4d5156;
     color: #fff;
     font-size: 16px;
     border-radius: 30px;
@@ -82,14 +85,31 @@ input[type='text'] {
     margin-top: 30px;
 }
 .search{
-    width: 160px;
-    font-size: 15px;
-    margin: 5px;
-    padding: 10px 15px;
-    border-radius: 5px;
+    width: 140px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 8px 16px;
+    border-radius: 8px;
     text-align: center;
-    background-color: #333;
-    color: #fff;
-    border: none;
+    background-color: #303134;
+    color: #e8eaed;
+    text-decoration: none;
+    border: #007bff;
 }
 
+
+.bottom a:hover {
+    text-decoration: underline; 
+    color: #e8e8e8; 
+}
+.language a:hover {
+    text-decoration: underline; 
+    color: #99c3ff; 
+}
+.email a:hover {
+    text-decoration: underline; 
+    color: #fff; 
+}
+.search:hover {
+    border-color: #007bff;
+}
