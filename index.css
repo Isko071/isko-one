@@ -7,21 +7,35 @@ body {
 }
 
 .header {
-    text-align: right;
-    padding: 14px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px
 }
 .header a {
     color: white;
     text-decoration: none;
-    padding-right: 0px 0px 0px 15px;
     font-size: 13px;
 }
+.email{
+    padding: 12px 11px 0px 0px;
+}
+.email a{
+    padding: 0px 0px 0px 15px;
+}
+.other-img {
+  width: 16px;
+  height: 16px;
+  border: none;
+  margin: 0px 2px 8px 0px;
+}
 .avatar-img {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   object-fit: cover;
   border: none;
+  padding: 6px 0px 0px 11px;
+  margin: 0px 7px 0px 0px;
 }
 .content {
     display: flex;
@@ -36,7 +50,7 @@ h1 {
 }
 .language{
     color: #b2b2b2;
-    padding: 15px;
+    padding: 50px 15px;
     align-items: center;
     margin-top: 10px;
     font-size: 14px;
@@ -110,6 +124,7 @@ input[type='text'] {
     text-decoration: underline; 
     color: #fff; 
 }
-.search:hover {
+.buttons:hover {
+    border: 1px;
     border-color: #007bff;
 }
