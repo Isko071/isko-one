@@ -22,20 +22,26 @@ body {
 .email a{
     padding: 0px 0px 0px 15px;
 }
+
 .other-img {
-  width: 16px;
-  height: 16px;
-  border: none;
-  margin: 0px 2px 8px 0px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    margin: 0px 3px 0px 10px;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+    border: 10px solid transparent;
+    z-index: 0;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 .avatar-img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   object-fit: cover;
-  border: none;
   padding: 6px 0px 0px 11px;
-  margin: 0px 7px 0px 0px;
+  margin: 0px 7px 10px 0px;
 }
 .content {
     display: flex;
@@ -60,7 +66,6 @@ h1 {
     color: #99c3ff;
 }
 .footer{
-
     font-size: 14px;
     position: absolute;
     bottom: 0;
@@ -97,9 +102,9 @@ input[type='text'] {
 }
 .buttons {
     margin-top: 30px;
+    border-radius: 0px;
 }
 .search{
-    width: 140px;
     font-size: 14px;
     margin: 11px 4px;
     padding: 8px 16px;
@@ -108,7 +113,7 @@ input[type='text'] {
     background-color: #303134;
     color: #e8eaed;
     text-decoration: none;
-    border: #007bff;
+    border: 1px solid transparent;
 }
 
 
@@ -124,7 +129,12 @@ input[type='text'] {
     text-decoration: underline; 
     color: #fff; 
 }
-.buttons:hover {
-    border: 1px;
-    border-color: #007bff;
+.buttons a:hover {
+    border-color: #868789;
+}
+
+.other-img:hover {
+    border-color: #373636;
+    border-radius: 50%;
+    z-index: 1;
 }
