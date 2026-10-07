@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +9,24 @@
 
 <body>
     <div class="header">
-        <div class="email">
+        <div class="nav">
             <a href="#">Почта</a>
             <a href="#">Картинки</a>
         </div>
-        <div class="profil-mail">
-            <a href="#" class="other"><img src="./images/dots-menu.png" alt="other" class="other-img"></a>
-            <a class="avatar" href="#"><img src="./images/avatar.jpg" alt="profil" class="avatar-img"></a>
+        <div class="profile">
+            <a href="#" class="other" aria-label="Приложения Google"><img src="./images/dots-menu.png" alt="" class="other-img"></a>
+            <a class="avatar" href="#" aria-label="Аккаунт Google"><img src="./images/avatar.jpg" alt="" class="avatar-img"></a>
         </div>
     </div>
     
     <div class="content">
         <h1>Google</h1>
-        <input type="text" name="" id="">
+        <input type="text" name="q" id="q" class="search-input" aria-label="Поиск" placeholder="Поиск в Google или введите URL" autocomplete="off">
         <div class="buttons">
-            <a href="#" class="search">Поиск в Google</a>
-            <a href="#" class="search">Мне повезет!</a>
+            <button type="button" class="btn">Поиск в Google</button>
+            <button type="button" class="btn">Мне повезет!</button>
         </div>
-        <div
-            class="language">Сервисы Google доступны на этих языках: <a href="">кыргызча</a>
+        <div class="language">Сервисы Google доступны на этих языках: <a href="#">кыргызча</a>
         </div>
     </div>
     
@@ -35,15 +34,15 @@
         <div class="country">Киргизия</div>
         <div class="bottom">
             <div class="bottom-left">
-                <a href="#" class="aaa">Всё о Google</a>
-                <a href="#" class="aaa">Реклама</a>
-                <a href="#" class="aaa">Для бизнеса</a>
-                <a href="#" class="aaa">Как работает Google Поиск</a>
+                <a href="#" class="footer-link">Всё о Google</a>
+                <a href="#" class="footer-link">Реклама</a>
+                <a href="#" class="footer-link">Для бизнеса</a>
+                <a href="#" class="footer-link">Как работает Google Поиск</a>
             </div>
             <div class="bottom-right">
-                <a href="#" class="bbb">Конфиденциальность</a>
-                <a href="#" class="bbb">Условия</a>
-                <a href="#" class="bbb">Настройки</a>
+                <a href="#" class="footer-link">Конфиденциальность</a>
+                <a href="#" class="footer-link">Условия</a>
+                <a href="#" class="footer-link">Настройки</a>
             </div>
         </div>
     </div>
